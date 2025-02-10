@@ -1,0 +1,9 @@
+{
+	"name": "NorthWindVamsha-DataFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8f2037ab-3575-4c97-a80f-784237ccbf61",
+		"tenantId": "ad172ae3-7528-4088-9d23-b06080e353bf"
+	}
+}
