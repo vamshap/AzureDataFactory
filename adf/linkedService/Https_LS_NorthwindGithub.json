@@ -1,0 +1,12 @@
+{
+	"name": "Https_LS_NorthwindGithub",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/microsoft/sql-server-samples/blob/e74af02add614d7ec764dd2a68bce3364250a3ff/samples/databases/adventure-works/oltp-install-script/Customer.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
