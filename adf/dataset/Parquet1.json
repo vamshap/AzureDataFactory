@@ -1,0 +1,20 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Northwind_Bronze_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Customers",
+				"fileSystem": "northwindbronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
