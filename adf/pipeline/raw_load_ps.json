@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "raw_load_ps",
 	"properties": {
 		"activities": [
 			{
@@ -40,17 +40,81 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "1\t\t934\t1\tAW00000001\t{3F5AE95E-B87D-4AED-95B4-C3797AFCB74F}\t2014-09-12 11:15:07.263000000",
 									"type": "String",
-									"physicalType": "String"
+									"ordinal": 1
 								},
 								"sink": {
-									"name": "1\t\t934\t1\tAW00000001\t{3F5AE95E-B87D-4AED-95B4-C3797AFCB74F}\t2014-09-12 11:15:07.263000000",
+									"name": "Column1",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
-							null
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 2
+								},
+								"sink": {
+									"name": "Column2",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 3
+								},
+								"sink": {
+									"name": "Column3",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 4
+								},
+								"sink": {
+									"name": "Column4",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 5
+								},
+								"sink": {
+									"name": "Column5",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 6
+								},
+								"sink": {
+									"name": "Column6",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 7
+								},
+								"sink": {
+									"name": "Column7",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							}
 						],
 						"typeConversion": true,
 						"typeConversionSettings": {
